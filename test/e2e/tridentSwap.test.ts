@@ -30,7 +30,7 @@ const cases = [
 
 jest.retryTimes(1)
 
-describe('Trident Swap:', () => {
+describe.skip('Trident Swap:', () => {
   beforeAll(async () => {
     ;[metamask, browser, page] = await TestHelper.initDappeteer()
 

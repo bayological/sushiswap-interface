@@ -31,7 +31,7 @@ async function initPages() {
 
 jest.retryTimes(1)
 
-describe('Remove Liquidity:', () => {
+describe.skip('Remove Liquidity:', () => {
   beforeAll(async () => {
     ;[metamask, browser, page] = await TestHelper.initDappeteer()
     await initPages()

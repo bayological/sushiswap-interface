@@ -38,7 +38,7 @@ function round(input: number): number {
 
 jest.retryTimes(1)
 
-describe('Add Liquidity:', () => {
+describe.skip('Add Liquidity:', () => {
   beforeAll(async () => {
     ;[metamask, browser, page] = await TestHelper.initDappeteer()
     await initPages()
