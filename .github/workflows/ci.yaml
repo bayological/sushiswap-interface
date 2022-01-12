@@ -43,7 +43,7 @@ jobs:
       #   run: yarn test:ci
 
       - name: Run E2E tests
-        uses: mujo-code/puppeteer-headful@v2
+        # uses: mujo-code/puppeteer-headful@v2
         env:
           CI: 'true'
           TEST_PASS: ${{ secrets.TEST_PASS }}
