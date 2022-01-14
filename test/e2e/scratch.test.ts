@@ -40,7 +40,7 @@ describe('Swap:', () => {
     browser.close()
   })
 
-  test.only('Should switch currencies', async () => {
+  test('Should switch currencies', async () => {
     await swapPage.setInputToken('USDC')
     await swapPage.setOutputToken('WETH')
 
